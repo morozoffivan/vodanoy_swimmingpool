@@ -142,19 +142,11 @@ p {
 
 /* end wave */
 
-/* fish animation */
-#footer {
-    background-color: #42a1c6;
-}
-
-
-
 /* Bubbles */
 .bubbles {
     position: absolute;
     bottom: 0;
     z-index: 5;
-    margin-right: 50px;
     background-color: white;
     border-radius: 50%;
     opacity: .50;
@@ -164,39 +156,39 @@ p {
 }
 
 .bubble-2 {
-    left: 350px;
+    left: 10%;
     animation: up 2s infinite;
 }
 
 .bubble-3 {
-    left: 750px;
+    left: 20%;
     opacity: .30;
     animation: up 5s infinite;
 }
 
 .bubble-4 {
-    left: 1150px;
+    left: 30%;
     animation: up 6s infinite;
 }
 
 .bubble-5 {
-    left: 50px;
+    left: 40%;
     animation: up 5s infinite;
 }
 
 .bubble-6 {
-    left: 300px;
+    left: 60%;
     opacity: .30;
     animation: up 3s infinite;
 }
 
 .bubble-7 {
-    left: 670px;
+    left: 70%;
     animation: up 4s infinite;
 }
 
 .bubble-8 {
-    left: 1050px;
+    left: 80%;
     opacity: .30;
     animation: up 3s infinite;
 }
