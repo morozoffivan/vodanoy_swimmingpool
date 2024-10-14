@@ -1,3 +1,7 @@
+.ref {
+    font-size: 10px;
+}
+
 .btn-sidebar {
     padding: 0 6px 6px 6px;
     margin: 5px 5px;
@@ -18,19 +22,15 @@
 
 
 /* wave */
-@import url(//fonts.googleapis.com/css?family=Lato:300:400);
-
 body {
     margin: 0;
 }
 
-h1 {
+h1,
+h2 {
     font-family: "Rubik Mono One", monospace;
     font-style: normal;
     color: #0077be !important;
-    /* display: inline-block;
-    text-transform: uppercase;
-    animation: wave 2.5s infinite ease-in-out, colorChange 4.5s infinite ease-in-out; */
 }
 
 .company-name {
@@ -96,7 +96,7 @@ p {
     }
 }
 
-/* Animation */
+/* Animation wave */
 
 .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
@@ -200,4 +200,51 @@ p {
     }
 }
 
-/* fish animation end*/
+
+/* card items */
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-2 {
+    text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25);
+}
+
+.text-shadow-3 {
+    text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* divider */
+.divider {
+    height: 300px;
+    animation: colorChange 4.5s infinite ease-in-out;
+}
+
+#divider{
+
+    margin-bottom: 15px;
+}
